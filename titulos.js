@@ -29,4 +29,4 @@ const posiblesTitulos = [
     tituloElemento.textContent = nuevoTitulo;
   }
   
-  setInterval(cambiarTitulo, 4500); // Cambia el título cada 5 segundos
+  setInterval(cambiarTitulo, 4500); // Cambia el título cada 4.5 segundos
