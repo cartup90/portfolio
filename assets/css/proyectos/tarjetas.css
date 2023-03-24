@@ -1,0 +1,50 @@
+.proyecto__tarjeta {
+    
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 1.5rem;
+    
+    
+    
+}
+
+.contendor__tarjeta {
+    
+    color: #8892b0 ;
+    flex-shrink: 2;
+    
+    
+}
+.tarjeta__nombre {
+    font-size: 1.7rem;
+    color: #ccd6f6 ;
+}
+.tarjeta__img {
+    width: 90%;
+    object-fit: content;
+    filter: grayscale();
+}
+.numeracion {
+    color: #64ffda ;
+    font-size: 1.5rem;
+    margin-right: 3%;
+}
+
+.contenedor__texto {
+    
+    width: 60%;
+    height: 80%;
+    margin-top: 4.8%;
+    color: #8892b0;
+    flex-shrink: 1;
+}
+.tarjeta__texto {
+    font-size: 1.34rem;
+}
+
+
+.github {
+    width: 8%;
+}

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="assets/css/cabecera/cabecera.css">
     <link rel="stylesheet" href="assets/css/cabecera/presentacion.css">
-    <link rel="stylesheet" href="assets/css/proyectos/carrusel.css">
+    <link rel="stylesheet" href="assets/css/proyectos/tarjetas.css">
     <link rel="stylesheet" href="assets/css/proyectos/proyectos.css">
     <link rel="stylesheet" href="sobreMi.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,28 +51,56 @@
     
     <main class="main">
         <section class="proyectos" id="proyectos">
-            <figure class="icon-cards mt-3">
-                <div class="icon-cards__content">
-                    <div class="icon-cards__item d-flex align-items-center justify-content-center">
-                        <span class="h1"><h3>Complejo deportivo AMPA</h3></span>
-                        <a href="#"><img class="proyectos__img" src="assets/img/AMPA.png" alt="AMPA complejo deportivo"></a>
-                        <p>Pagina de un complejo deportivo</p>
+            <h2 class="proyectos__titulo">Proyectos</h2>
+            <div class="proyectos__contenedor">
+                <div class="proyecto__tarjeta">
+                    <div class="contenedor__tarjeta">
+                        <h3 class="tarjeta__nombre"><b class="numeracion">01.</b>Complejo deportivo AMPA</h3>
+                        <a href="#" class="tarjeta__link">
+                            <img src="assets/img/AMPA.png" alt="Complejo AMPA" class="tarjeta__img">
+                        </a>
                     </div>
-                    <div class="icon-cards__item d-flex align-items-center justify-content-center">
-                        <span class="h1"><h3>Encriptador de texto Alura</h3></span>
-                        <a href="#"><img class="proyectos__img" src="assets/img/Desencriptador.png" alt="Encriptador de texto Alura"></a>
-                        <p>Esta pagina hecha por mi es un blablabla</p>
+                    <div class="contenedor__texto">
+                    <p class="tarjeta__texto">La web del complejo deportivo AMPA fué uno de los primeros proyectos web que llevamos a cabo con compañeros
+                        de la tecnicatura en desarrollo web. Mi aporte consistió en darle una diseño responsivo utilizando flex-box, la realización de los formularios
+                        que me pareció buena idea hacerlo a modo de ventanas emergentes o pop-up's y la validación con JS de los formularios.
+                    </p>
+                    <a href="#" class="tarjeta__github"><img src="assets/img/github.png" alt="" class="github"></a>
                     </div>
-                    <div class="icon-cards__item d-flex align-items-center justify-content-center">
-                        <span class="h1"><h3>Keyboard Master</h3></span>
-                        <a href="#"><img class="proyectos__img" src="assets/img/Keyboard.png" alt="Keyboard Master"></a>
-                        <p>Este proyecto consta de un juego</p>
-                    </div>
-                   
                 </div>
-            </figure>
-              
+                <div class="proyecto__tarjeta">
                     
+                    <div class="contenedor__texto">
+                    <p class="tarjeta__texto"> El primer challenge propuesto durante la formación en Front-end por Alura cursos junto con Oracle Next Education. 
+                        Consiste en un encriptador de texto sencillo, cuyas claves se basan en cambiar las vocales por un string en particular. La aplicación permite
+                        también desencriptar cualquier texto que haya sido encriptado con ella, y añadimos el botón copiar para darle una mejor experiencia al usuario.
+                    </p>
+                    <a href="#" class="tarjeta__github"><img src="assets/img/github.png" alt="" class="github"></a>
+                    </div>
+                    <div class="contenedor__tarjeta">
+                        <h3 class="tarjeta__nombre"><b class="numeracion">02.</b>Encriptador Alura</h3>
+                        <a href="#" class="tarjeta__link">
+                            <img src="assets/img/Desencriptador.png" alt="Encriptador Alura" class="tarjeta__img">
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto__tarjeta">
+                    <div class="contenedor__tarjeta">
+                        <h3 class="tarjeta__nombre"><b class="numeracion">03.</b>Keyboard Master</h3>
+                        <a href="#" class="tarjeta__link">
+                            <img src="assets/img/Keyboard.png" alt="Keyboard Master" class="tarjeta__img">
+                        </a>
+                    </div>
+                    <div class="contenedor__texto">
+                    <p class="tarjeta__texto"> Esta web es un proyecto en solitario, motivado por practicar mis habilidades decidí crear un estilo de juego que 
+                        consiste en tipear la mayor cantidad de palabras que aparecen en pantalla, ofreciendo al usuario distintos tiempos de juego y al finalizar mostrando
+                        el resultado o "score".
+                    </p>
+                    <a href="#" class="tarjeta__github"><img src="assets/img/github.png" alt="#" class="github"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
             </section>
             <section class="sobreMi" id="sobreMi">
                 <h2 class="sobreMi__titulo">Sobre Mi</h2>
@@ -85,6 +113,7 @@
                         Si estás interesado en trabajar conmigo o simplemente quieres saber más sobre mi experiencia y habilidades, no dudes en ponerte en contacto conmigo. <b>¡Estoy deseando conocer nuevos proyectos y personas interesantes en el mundo de la programación y el diseño web! </b>
                     </p>
                 </div>
+    </main>
                 <footer class="contacto" id="contacto">
                     <h2 class="contacto__titulo">Podés ver más sobre mi aquí</h2>
                     <div class="contacto__contenedor">
@@ -98,8 +127,8 @@
 
             </section>
 
-    </main>
+    
     <script src="titulos.js"></script>
-    <script src="proyectos.js"></script>
+    <script src="carrusel.js"></script>
 </body>
 </html>

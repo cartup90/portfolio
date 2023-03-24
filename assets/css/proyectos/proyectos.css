@@ -1,40 +1,21 @@
-
-
 .proyectos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.tarjeta {
+    padding: 2rem;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    height: 20rem;
-    width: 20rem;
-    overflow: hidden;
-    border: 2px solid blue;
-
-}
-
-.proyectos {
-    border: 2px solid red;
-    display: flex;
     justify-content: center;
-    padding: 2.5rem;
+    align-items: center;
+    text-align: center;
+    background-color: #020c1b;
 }
 
-.proyectos__img {
-    width: 80%;
-    height: 80%;
-    aspect-ratio: 2/5;
-    object-fit: contain;
+.proyectos__contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 83%;
+    overflow: hidden;
+}
+.proyectos__titulo {
+    font-size: 3.2rem;
+    color: #64ffda;
 }
 
-
-.tarjeta__img {
-    width: 80%;
-    height: 80%;
-    border: 2px solid black;
-    
-    object-fit: contain;
-}

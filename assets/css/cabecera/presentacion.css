@@ -20,10 +20,12 @@
     margin-top: -6.7%;
 }
 .miFoto {
-    border: 2px solid #64ffda;
-    background-color: #ccd6f6;
+    
+    background-color: transparent;
     border-radius: 6%;
     aspect-ratio: 5/7;
+    filter: grayscale();
+    border: 2px solid #64ffda;
     
 }
 
