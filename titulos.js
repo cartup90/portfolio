@@ -1,7 +1,7 @@
 const posiblesTitulos = [
-    "construyo experiencias digitales de impacto",
-    "diseño soluciones web a medida",
-    "transformo ideas en realidad digital"
+    "construyo experiencias digitales de impacto.",
+    "diseño soluciones web a medida.",
+    "transformo ideas en realidad digital."
   ];
   
   function escribirTitulo(titulo, elemento, tiempo) {  //Añade el título letra por letra
