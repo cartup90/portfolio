@@ -6,21 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="proyectos.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera.css">
+    <link rel="stylesheet" href="assets/css/cabecera/presentacion.css">
+    <link rel="stylesheet" href="assets/css/proyectos/carrusel.css">
+    <link rel="stylesheet" href="assets/css/proyectos/proyectos.css">
     <link rel="stylesheet" href="sobreMi.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+
 
     <title>Catriel Pardo- Portfolio</title>
 </head>
 <body>
     <header class="cabecera">
         <nav class="cabecera__nav">
+            <a href="index.html" class="cabecera__logo"><img src="assets/img/logo.png" alt="Catriel Pardo" class="logo"></a>
             <ul class="cabecera__lista">
-                <a href="#proyectos" class="cabecera__a"><li class="cabecera__lista--item">Proyectos</li></a>
-                <a href="#sobreMi" class="cabecera__a"><li class="cabecera__lista--item">Sobre mi</li></a>
-                <a href="#contacto" class="cabecera__a"><li class="cabecera__lista--item">Contactame</li></a>
+                <li class="cabecera__lista--item">01. <a href="#proyectos" class="cabecera__a">Proyectos</a></li>
+                <li class="cabecera__lista--item">02. <a href="#sobreMi" class="cabecera__a">Sobre mi</a></li>
+                <li class="cabecera__lista--item">03. <a href="#contacto" class="cabecera__a">Contacto</a></li>
             </ul>
         </nav>
         
@@ -30,10 +40,13 @@
             
             <h4 class="titulo__hola">Hola!, mi nombre es</h4>
             <h1 class="titulo__nombre">Catriel Pardo</h1>
-            <h1 class="titulo__desarrollador">Soy Desarrollador Front-end y <span id="titulo-dinamico">transformo ideas en realidad digital</span></h1>
+            <h1 class="titulo__desarrollador">Soy Desarrollador Front-end y <span id="titulo-dinamico" class="titulo__dinamico">transformo ideas en realidad digital</span></h1>
             
             </div>
         </div>
+        <a href="#proyectos" class="btn-scroll"><span class="material-symbols-outlined">
+            expand_more
+            </span></a>
     </header>    
     
     <main class="main">

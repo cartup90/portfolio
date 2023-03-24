@@ -1,0 +1,54 @@
+.cabecera {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1116%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(2%2c 12%2c 27%2c 1)'%3e%3c/rect%3e%3cpath d='M1637.952%2c1339.813C1745.396%2c1341.596%2c1831.556%2c1259.21%2c1882.382%2c1164.531C1930.243%2c1075.374%2c1935.916%2c968.213%2c1884.093%2c881.299C1833.441%2c796.348%2c1736.855%2c755.402%2c1637.952%2c754.586C1537.425%2c753.757%2c1434.72%2c789.991%2c1384.676%2c877.18C1334.812%2c964.054%2c1359.077%2c1068.784%2c1407.178%2c1156.646C1457.726%2c1248.976%2c1532.705%2c1338.067%2c1637.952%2c1339.813' fill='rgba(10%2c 25%2c 47%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1102.9011153976817 243.41809536318192L1035.7576532161618 23.80172627266677 883.2847463071665 310.5615575447018z' fill='rgba(10%2c 25%2c 47%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M366.70013818121254 298.64860193213013L402.55035362683606 194.53201626792858 228.45036740772198 192.8149859315941z' fill='rgba(10%2c 25%2c 47%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M534.047980170536 689.0400819514306L313.66238866480114 452.7054694803991 297.7133676995045 909.4256734571654z' fill='rgba(10%2c 25%2c 47%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M368.2174144677376 758.5769087613274L625.3338706669632 763.3100094709022 519.797461501967 564.8248916966745z' fill='rgba(10%2c 25%2c 47%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1118.41%2c1012.434C1149.331%2c1011.892%2c1180.111%2c1000.943%2c1196.25%2c974.562C1213.061%2c947.083%2c1212.92%2c912.251%2c1196.738%2c884.398C1180.63%2c856.673%2c1150.463%2c839.714%2c1118.41%2c840.583C1087.738%2c841.414%2c1062.981%2c862.196%2c1047.105%2c888.453C1030.533%2c915.86%2c1019.732%2c949.61%2c1035.7%2c977.374C1051.701%2c1005.195%2c1086.321%2c1012.996%2c1118.41%2c1012.434' fill='rgba(10%2c 25%2c 47%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M478.98%2c812.338C513.483%2c811.601%2c545.689%2c795.681%2c563.953%2c766.399C583.391%2c735.235%2c591.075%2c695.005%2c571.581%2c663.876C552.93%2c634.092%2c514.122%2c630.702%2c478.98%2c630.706C443.849%2c630.71%2c405.69%2c634.526%2c386.418%2c663.899C365.59%2c695.644%2c367.388%2c737.949%2c387.478%2c770.167C406.524%2c800.71%2c442.993%2c813.107%2c478.98%2c812.338' fill='rgba(10%2c 25%2c 47%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M921.4925443729892 797.688477596456L714.1861618281806 889.9872257529496 1013.7912925294828 1004.9948601412646z' fill='rgba(10%2c 25%2c 47%2c 1)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1116'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+.logo {
+    width: 25%;
+    aspect-ratio: 2/2;
+    
+}
+
+.cabecera__nav {
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+.cabecera__lista {
+    display: flex;
+    text-decoration: none;
+    z-index: 0;
+    padding: 0.8rem;
+    
+    
+}
+
+.cabecera__logo {
+    padding: 0.8rem;
+    z-index: 0;
+}
+.cabecera__a {
+    text-decoration: none;
+    color: #64ffda;
+}
+
+.cabecera__lista--item {
+    padding: 10px;
+    list-style: none;
+    margin-right: 10px;
+    color: #8892b0;
+    padding: 1.3rem;
+    
+    
+}
+.cabecera__a:link { 
+    text-decoration: none;
+}
+.cabecera__a:visited {
+text-decoration: none;
+}

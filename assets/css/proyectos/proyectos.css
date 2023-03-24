@@ -1,0 +1,40 @@
+
+
+.proyectos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 20rem;
+    width: 20rem;
+    overflow: hidden;
+    border: 2px solid blue;
+
+}
+
+.proyectos {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem;
+}
+
+.proyectos__img {
+    width: 80%;
+    height: 80%;
+    aspect-ratio: 2/5;
+    object-fit: contain;
+}
+
+
+.tarjeta__img {
+    width: 80%;
+    height: 80%;
+    border: 2px solid black;
+    
+    object-fit: contain;
+}

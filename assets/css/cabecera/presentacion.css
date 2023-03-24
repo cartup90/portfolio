@@ -1,0 +1,83 @@
+
+
+.cabecera__presentacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: -10%;
+    
+    
+    
+}
+.presentacion_contenedor {
+    padding: 3.4rem;
+    width: 50%;
+    height: 30%;
+    text-align: start;
+    margin-top: -6.7%;
+}
+.miFoto {
+    border: 2px solid #64ffda;
+    background-color: #ccd6f6;
+    border-radius: 6%;
+    aspect-ratio: 5/7;
+    
+}
+
+.titulo__hola {
+    font-size: 1rem;
+    color: #64ffda;
+
+}
+.titulo__nombre {
+    font-size: 4rem;
+    color: #ccd6f6;
+    
+}
+.titulo__desarrollador {
+    font-size: 2.8rem;
+    color: #8892b0;
+}
+
+.btn-scroll {
+    min-width: 130px;
+    height: 40px;
+    
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: transparent;
+    overflow: hidden;
+    border: 2px solid #64ffda;
+    color: #64ffda;
+    margin: auto;
+    margin-bottom: 2rem ;
+    text-align: center;
+    
+  }
+  .btn-scroll:hover {
+    color: #fff;
+  }
+  .btn-scroll:hover:after {
+    height: 100%;
+  }
+  .btn-scroll:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    background: #64ffda;
+  }
