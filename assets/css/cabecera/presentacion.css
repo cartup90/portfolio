@@ -5,21 +5,26 @@
     flex-direction: row;
     justify-content: center;
     text-align: left;
-    align-items: center;
+    align-items: start;
     flex-grow: 1;
-    margin-top: -10%;
+    
+    
     
     
     
 }
 .presentacion_contenedor {
-    padding: 3.4rem;
+    
     width: 50%;
     height: 30%;
     text-align: start;
-    margin-top: -6.7%;
+    margin-left: 4%;
+    
+    
 }
 .miFoto {
+
+    width: 15%;
     
     background-color: transparent;
     border-radius: 6%;
@@ -39,7 +44,8 @@
 
 }
 .titulo__nombre {
-    font-size: 4rem;
+  margin-top: -1%;  
+  font-size: 4rem;
     color: #ccd6f6;
     
 }
