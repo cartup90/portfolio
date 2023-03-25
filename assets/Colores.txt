@@ -13,4 +13,4 @@
     --pink: #f57dff;
     --blue: #57cbff;
 
-https://brittanychiang.com/ Aquí está el ejemplo
+
