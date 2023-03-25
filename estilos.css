@@ -12,7 +12,7 @@ body {
 
 
 .main {
-    display: none;
+    display: none;             /* Al finalizar el loader, el display se modifica a flex*/
     flex-direction: column;
     flex-wrap: nowrap;
     

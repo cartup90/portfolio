@@ -52,3 +52,34 @@ background-color: #0a192f  ;}
 .cabecera__a:visited {
 text-decoration: none;
 }
+
+
+
+/* Media query para móviles */
+@media screen and (max-width: 480px) {
+    .cabecera {
+        height: 100%;
+        
+        
+    }
+    
+    .cabecera__logo {
+        display: none;
+    }
+    .cabecera__lista {
+        margin: 0;
+        padding: 0;
+    }
+
+  }
+
+
+
+
+
+
+/* Media query para tablet */
+@media screen and (max-width: 768px) {
+    
+
+  }

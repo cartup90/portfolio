@@ -44,7 +44,7 @@
 
 }
 .titulo__nombre {
-  margin-top: -1%;  
+  
   font-size: 4rem;
     color: #ccd6f6;
     
@@ -95,4 +95,35 @@
     height: 0;
     width: 100%;
     background: #64ffda;
+  }
+
+  @media screen and (max-width: 480px) {
+    .cabecera__presentacion {
+      margin-top: 4%;
+      height: 672px;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      text-align: justify;
+    }
+    .presentacion_contenedor {
+      
+      width: 90%;
+      text-align: center;
+    }
+
+    .miFoto {
+      width: 28%;
+    }
+    .titulo__hola {
+      font-size: 1.4rem;
+      margin-top: 2%;
+    }
+    .titulo__desarrollador, .titulo__dinamico {
+      font-size: 2.3rem;
+    }
+
+
+
+
   }
