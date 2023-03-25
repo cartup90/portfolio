@@ -1,14 +1,19 @@
 body {
+    background-color: #020c1b ;
     font-family: 'Rajdhani', sans-serif;
+    
+    
+    
 
+}
+.loading {
+    visibility: hidden;
 }
 
 
 
-
-
 .main {
-    display: flex;
+    display: none;
     flex-direction: column;
     flex-wrap: nowrap;
 }
@@ -16,6 +21,7 @@ body {
 html {
     scroll-behavior: smooth;
     
-   
 }
+
+
 
