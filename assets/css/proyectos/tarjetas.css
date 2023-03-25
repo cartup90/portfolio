@@ -26,6 +26,10 @@
     object-fit: content;
     filter: grayscale();
 }
+.tarjeta__img:hover {
+    filter: none;
+    transition: 1s;
+}
 .numeracion {
     color: #64ffda ;
     font-size: 1.5rem;
