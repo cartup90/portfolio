@@ -62,6 +62,9 @@ text-decoration: none;
         
         
     }
+    .cabecera__nav {
+        justify-content: space-evenly;
+    }
     
     .cabecera__logo {
         display: none;
@@ -69,6 +72,10 @@ text-decoration: none;
     .cabecera__lista {
         margin: 0;
         padding: 0;
+
+    }
+    .cabecera__lista--item {
+        padding: 3px;
     }
 
   }
