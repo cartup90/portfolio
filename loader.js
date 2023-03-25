@@ -12,7 +12,7 @@ window.onload = function() {
       cabecera.style.display="flex";
       main.style.display="flex";
       contacto.style.display="flex";
-      document.body.classList.remove("loading"); // Elimina la clase 'loading' para mostrar el contenido del body
+     
     }, MINIMUM_LOADING_TIME);
   }
 

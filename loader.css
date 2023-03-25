@@ -1,9 +1,10 @@
 .loader {
     position: fixed;
+    text-align: center;
     z-index: 999;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: calc(50% - 50px);  /* 50% menos la mitad de lo que mide el logo */
+    
   }
   
   .loader img {

@@ -1,0 +1,34 @@
+.sobreMi {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.sobreMi__contenedor {
+    width: 60%;
+    padding: 2rem;
+    
+}
+
+.sobreMi__texto {
+    text-align: justify;
+}
+.sobreMi__titulo {
+    font-size: 3.2rem;
+    color: #64ffda;
+}
+
+.sobreMi__texto {
+    font-size: 1.34rem;
+    color: #8892b0;
+}
+
+.sobreMi__texto--resaltar {
+    color: #64ffda;
+}
+.sobreMi__texto--resaltarBlanco {
+    color: #ccd6f6;
+}

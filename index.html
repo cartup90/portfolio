@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="loader.css">
     <link rel="stylesheet" href="assets/css/cabecera/cabecera.css">
@@ -12,8 +13,11 @@
     <link rel="stylesheet" href="assets/css/cabecera/presentacion.css">
     <link rel="stylesheet" href="assets/css/proyectos/tarjetas.css">
     <link rel="stylesheet" href="assets/css/proyectos/proyectos.css">
+    <link rel="stylesheet" href="assets/css/sobreMi/sobreMi.css">
+    <link rel="stylesheet" href="assets/css/sobreMi/habilidades.css">
     <link rel="stylesheet" href="assets/css/contacto/contacto.css">
-    <link rel="stylesheet" href="sobreMi.css">
+    <link rel="stylesheet" href="assets/css/contacto/desplegable.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre&display=swap" rel="stylesheet">
@@ -62,7 +66,7 @@
                     <div class="proyecto__tarjeta">
                         <div class="contenedor__tarjeta">
                             <h3 class="tarjeta__nombre"><b class="numeracion">01.</b>Complejo deportivo AMPA</h3>
-                            <a href="#" class="tarjeta__link">
+                            <a href="#" target="_blank" class="tarjeta__link">
                                 <img src="assets/img/AMPA.png" alt="Complejo AMPA" class="tarjeta__img">
                             </a>
                         </div>
@@ -71,7 +75,7 @@
                                 de la tecnicatura en desarrollo web. Mi aporte consistió en darle una diseño responsivo utilizando flex-box, la realización de los formularios
                                 que me pareció buena idea hacerlo a modo de ventanas emergentes o pop-up's y la validación con JS de los formularios.
                             </p>
-                            <a href="#" class="tarjeta__github"><img src="assets/img/github.png" alt="" class="github"></a>
+                            <a href="#" target="_blank" class="tarjeta__github"><img src="assets/img/github.png" alt="" class="github"></a>
                         </div>
                     </div>
                     <div class="proyecto__tarjeta">
@@ -85,7 +89,7 @@
                         </div>
                         <div class="contenedor__tarjeta">
                             <h3 class="tarjeta__nombre"><b class="numeracion">02.</b>Encriptador Alura</h3>
-                            <a href="#" class="tarjeta__link">
+                            <a href="#" target="_blank" class="tarjeta__link">
                                 <img src="assets/img/Desencriptador.png" alt="Encriptador Alura" class="tarjeta__img">
                             </a>
                         </div>
@@ -112,24 +116,41 @@
                     <h2 class="sobreMi__titulo">Sobre Mi</h2>
                     <div class="sobreMi__contenedor">
                         <p class="sobreMi__texto">
-                            Mi nombre es Catriel Pardo y soy  desarrollador front-end. Hace cinco años comencé a estudiar de manera autodidacta en internet, lo cual despertó en mí una gran pasión por la programación y el diseño web. Desde entonces, no he dejado de aprender y mejorar mis habilidades, actualmente estoy estudiando en Alura Cursos y una tecnicatura en desarrollo web en el Instituto superior politécnico de Córdoba, Argentina.
+                            Mi nombre es Catriel Pardo y soy  <span class="sobreMi__texto--resaltar">desarrollador front-end</span>. Hace cinco años comencé a estudiar de manera autodidacta en internet, lo cual despertó en mí una gran <span class="sobreMi__texto--resaltar">pasión por la programación y el diseño web</span>. Desde entonces, no he dejado de aprender y mejorar mis habilidades, actualmente estoy estudiando en Alura Cursos y una tecnicatura en desarrollo web en el Instituto superior politécnico de Córdoba, Argentina.
         
-                            Mi enfoque se centra en crear sitios web elegantes y eficientes, que ofrezcan una experiencia de usuario agradable y una navegación intuitiva. Me apasiona estar al día con las últimas tendencias y tecnologías, y estoy siempre en busca de nuevos desafíos que me permitan seguir creciendo como profesional.
+                            Mi enfoque se centra en crear<span class="sobreMi__texto--resaltar"> sitios web elegantes y eficientes</span>, que ofrezcan una <span class="sobreMi__texto--resaltar">experiencia de usuario agradable y una navegación intuitiva</span>. Me apasiona estar al día con las últimas tendencias y tecnologías, y estoy siempre en busca de nuevos desafíos que me permitan seguir creciendo como profesional.
         
-                            Si estás interesado en trabajar conmigo o simplemente quieres saber más sobre mi experiencia y habilidades, no dudes en ponerte en contacto conmigo. <b>¡Estoy deseando conocer nuevos proyectos y personas interesantes en el mundo de la programación y el diseño web! </b>
+                            Si estás interesado en trabajar conmigo o simplemente quieres saber más sobre mi experiencia y habilidades, no dudes en ponerte en contacto conmigo. <span class="sobreMi__texto--resaltarBlanco">¡Estoy deseando conocer nuevos proyectos y personas interesantes en el mundo de la programación y el diseño web!</span>
                         </p>
+                        <div class="habilidades">
+                            <h3 class="habilidades__titulo">Tecnologías</h3>
+                            
+                            <ul class="habilidades__lista">
+                                <li class="habilidad__item"><img src="assets/img/iconos/html5.png" alt="html5"></li>
+                                <li class="habilidad__item"><img src="assets/img/iconos/css-3.png" alt="css3"></li>
+                                <li class="habilidad__item"><img src="assets/img/iconos/javascript.png" alt="javascript"></li>
+                                <li class="habilidad__item"><img src="assets/img/iconos/piton.png" alt="python"></li>
+                                <li class="habilidad__item"><img src="assets/img/iconos/mysql.png" alt="mysql"></li>
+                                <li class="habilidad__item"><img src="assets/img/iconos/photoshop.png" alt="photoshop"></li>
+                            </ul>
+                        </div>
                     </div>
             </section>
         </main>
                     <footer class="contacto" id="contacto">
-                        <h2 class="contacto__titulo">Podés ver más sobre mi aquí</h2>
+                        
+                        <h2 class="contacto__titulo">Entra en contacto conmigo</h2>
+                        <p class="contacto__texto">Actualmente me encuentro buscando nuevas oportunidades, no dudes en contactarte conmigo ya sea 
+                            por una pregunta o para saludarme. Haré lo mejor para responderte lo más rápido posible.
+                        </p>
                         <div class="contacto__contenedor">
                             <ul class="contacto__lista">
-                                <li class="contacto__item"><a href="#"><img src="assets/img/linkedin.png" alt="Linkedin"></a></li>
-                                <li class="contacto__item"><a href="#"><img src="assets/img/github.png" alt="Github"></a></li>
-                                <li class="contacto__item"><a href="#"><img src="assets/img/instagram.png" alt="Instagram"></a></li>
+                                <li class="contacto__item"><a href="#" target="_blank"><img src="assets/img/linkedin.png" alt="Linkedin"></a></li>
+                                <li class="contacto__item"><a href="#" target="_blank"><img src="assets/img/github.png" alt="Github"></a></li>
+                                <li class="contacto__item"><a href="#" target="_blank"><img src="assets/img/instagram.png" alt="Instagram"></a></li>
                             </ul>
                         </div>
+                        <p class="marca">Designed and built by Catriel Pardo</p>
                     </footer>
 
                 
