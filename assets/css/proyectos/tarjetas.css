@@ -53,3 +53,38 @@
 .github {
     width: 8%;
 }
+
+@media screen and (max-width: 480px) {
+    .proyecto__tarjeta {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-bottom: 1px dotted #ccd6f6;
+    }
+    .contendor__tarjeta {
+        width: 100%;
+        
+    }
+
+    .tarjeta__nombre {
+        font-size: 1.5rem;
+        width: 100%;
+        
+    }
+    .tarjeta__img {
+        width: 100%;
+    }
+    .contenedor__texto{
+        width: 100%;
+    }
+    .tarjeta__texto {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+    .github {
+        margin-top: 2%;
+    }
+
+}

@@ -16,6 +16,7 @@
 }
 .contacto__lista {
     display: flex;
+    justify-content: center;
 }
 
 .contacto__item{
@@ -36,4 +37,16 @@
 .marca {
     color: #a8b2d1;
     font-size: 0.8rem;
+}
+
+@media screen and (max-width: 480px) {
+    .contacto__texto {
+        width: 73%;
+        text-align: justify;
+        font-size: 1rem;
+    }
+    
+    .contacto__item {
+        width: 30%;
+    }
 }

@@ -32,3 +32,16 @@
 .sobreMi__texto--resaltarBlanco {
     color: #ccd6f6;
 }
+
+@media screen and (max-width: 480px){
+
+    .sobreMi__contenedor {
+        width: 100%;
+    }
+    .sobreMi__titulo {
+        font-size: 2.2rem;
+    }
+    .sobreMi__texto {
+        font-size: 1rem;
+    }
+}
