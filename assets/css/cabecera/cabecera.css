@@ -57,11 +57,7 @@ text-decoration: none;
 
 /* Media query para móviles */
 @media screen and (max-width: 480px) {
-    .cabecera {
-        height: 100%;
-        
-        
-    }
+   
     .cabecera__nav {
         justify-content: space-evenly;
     }
