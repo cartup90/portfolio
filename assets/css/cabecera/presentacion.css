@@ -127,7 +127,7 @@
     .btn-scroll {
       position: absolute;
       left: calc(50% - 65px);
-      top: 80%;
+      top: 85%;
     }
 
   }
