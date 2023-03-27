@@ -50,3 +50,15 @@
         width: 30%;
     }
 }
+
+@media screen and (max-width: 1300px ) and (min-width: 481px) {
+    .contacto__texto {
+        width: 73%;
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+    .contacto__item {
+        width: 30%;
+    }
+}

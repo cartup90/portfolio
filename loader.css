@@ -2,7 +2,7 @@
     position: fixed;
     text-align: center;
     z-index: 999;
-    top: 50%;
+    top: calc(50% - 50px);
     left: calc(50% - 50px);  /* 50% menos la mitad de lo que mide el logo */
     
   }

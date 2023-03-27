@@ -45,3 +45,15 @@
         font-size: 1rem;
     }
 }
+
+@media screen and (max-width: 1300px ) and (min-width: 481px) {
+    .sobreMi__contenedor {
+        width: 100%;
+    }
+    .sobreMi__titulo {
+        font-size: 2.2rem;
+    }
+    .sobreMi__texto {
+        font-size: 1rem;
+    }
+}

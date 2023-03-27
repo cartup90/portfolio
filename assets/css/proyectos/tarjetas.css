@@ -5,6 +5,7 @@
     flex-direction: row;
     padding: 2rem;
     margin: 1.5rem;
+    width: 90%;
     
     
     
@@ -23,7 +24,7 @@
     margin-bottom:2% ;
 }
 .tarjeta__img {
-    width: 70%;
+    width: 90%;
     object-fit: content;
     filter: grayscale();
 }
@@ -47,6 +48,7 @@
 }
 .tarjeta__texto {
     font-size: 1.34rem;
+    width: 100%;
 }
 
 
@@ -82,6 +84,42 @@
     .tarjeta__texto {
         width: 100%;
         font-size: 0.9rem;
+    }
+    .github {
+        margin-top: 2%;
+    }
+
+}
+
+@media screen and (max-width: 1300px ) and (min-width: 481px){
+    .proyecto__tarjeta {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-bottom: 1px dotted #ccd6f6;
+    }
+    .contendor__tarjeta {
+        width: 100%;
+        
+    }
+
+    .tarjeta__nombre {
+        font-size: 1.5rem;
+        width: 100%;
+        
+    }
+    .tarjeta__img {
+        width: 100%;
+    }
+    .contenedor__texto{
+        width: 100%;
+    }
+    .tarjeta__texto {
+        width: 100%;
+        font-size: 0.9rem;
+        
     }
     .github {
         margin-top: 2%;
